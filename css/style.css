@@ -401,7 +401,7 @@ ul {
 
   line-height: calc(19 / 16);
 
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 
   text-align: center;
 
@@ -433,7 +433,7 @@ ul {
 
   justify-content: center;
 
-  color: var(--secondry-text-color);
+  color:  #AFB1B8;
 }
 
 .team-socials-link:hover,
@@ -607,6 +607,11 @@ ul {
   width:170px;
 
   height:92px;
+}
+.client-item-icon:hover,
+.client-item-icon:focus
+{
+  fill: var(--accent-color);
 }
 
 .clinet-title {
@@ -783,7 +788,7 @@ margin-bottom: 20px;
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
-  background-color: var(--accent-color);
+  background-color:var(--accent-color);
 
   color: white;
 }
@@ -791,4 +796,5 @@ margin-bottom: 20px;
 
 .footer-social-link-icon {
   fill:#ffffff;
+ 
 }

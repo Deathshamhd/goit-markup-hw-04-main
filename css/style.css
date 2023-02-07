@@ -604,7 +604,8 @@ border-radius: 0px 0px 4px 4px;
   display: flex;
 
   margin-bottom: 94px;
- 
+
+
 }
 
 .client-item {
@@ -612,6 +613,7 @@ border-radius: 0px 0px 4px 4px;
 
   border: 1px solid #afb1b8;
   border-radius: 4px;
+
 
  
 }
@@ -781,10 +783,11 @@ margin-bottom: 20px;
 
 
 
-.footer-social-item:not(:last-child)
+
+.footer-social-item:not(:first-child)
 
 {
-  margin-right: 10px;
+  padding-right: 10px;
 }
 
 .footer-social-link {
@@ -801,6 +804,8 @@ margin-bottom: 20px;
   justify-content: center;
 
   background-color:#ffffff1a ;
+
+  margin: 10px;
 }
 .footer-social-link:hover,
 .footer-social-link:focus {

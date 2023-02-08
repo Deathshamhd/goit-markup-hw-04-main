@@ -142,7 +142,7 @@ ul {
 }
 
 .contact-link-icon {
-  fill:currentColor;
+  fill: currentColor;
   margin-right: 10px;
 }
 
@@ -624,20 +624,29 @@ border-radius: 0px 0px 4px 4px;
 .client-item-link
 {
   
-  padding-right:20px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
   width:170px;
 
   height:92px;
   display: flex;
+
+  align-items: center;
+
+  justify-content: center;
 }
 
 .client-item-icon:hover,
 .client-item-icon:focus
 {
   fill: var(--accent-color);
+
+}
+.client-item-link:hover,
+.client-item-link:focus
+{
   border-color: var(--accent-color);
 }
-
 .clinet-title {
 
   font-weight: 700;
@@ -654,14 +663,10 @@ margin-bottom:50px;
 
 
 }
-.client-item-icon {
+.client-item-icon 
+{
   fill: #afb1b8;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
- 
-
   height: 94px;
-
 }
 
 /*Footer*/

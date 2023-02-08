@@ -782,13 +782,6 @@ margin-bottom: 20px;
 
 
 
-
-.footer-social-item:not(:last-child)
-
-{
-  margin-right: 10px;
-}
-
 .footer-social-link {
   width: 44px;
 
@@ -811,7 +804,10 @@ margin-bottom: 20px;
 
   color: white;
 }
-
+.footer-social-item:not(:last-child)
+{
+  margin-right: 10px;
+}
 
 .footer-social-link-icon {
   fill:#ffffff;

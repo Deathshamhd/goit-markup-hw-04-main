@@ -596,32 +596,22 @@ border-radius: 0px 0px 4px 4px;
 
   color: var(--secondry-text-color);
 }
-.Clients-section 
+.clients-section
 {
   padding-top: 94px;
 
   padding-bottom: 94px; 
-
-
-  
 }
 
 
 
-.client-list {
+.client-list 
+{
   display: flex;
 
- 
-
-  
 }
 
-.client-item {
-  box-sizing: border-box;
 
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-}
 .client-item:not(:last-child)
 {
   margin-right:30px;
@@ -635,8 +625,6 @@ border-radius: 0px 0px 4px 4px;
 
   height:92px;
   display: flex;
-
-
 }
 
 .contact-links

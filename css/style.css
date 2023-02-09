@@ -634,18 +634,16 @@ border-radius: 0px 0px 4px 4px;
   align-items: center;
 
   justify-content: center;
+
+  color: #AFB1B8;
 }
 
-.client-item-icon:hover,
-.client-item-icon:focus
-{
-  fill: var(--accent-color);
 
-}
 .client-item-link:hover,
 .client-item-link:focus
 {
-  border-color: var(--accent-color);
+  border-color:currentColor;
+  color: #2196F3;
 }
 .clinet-title {
 
@@ -665,8 +663,8 @@ margin-bottom:50px;
 }
 .client-item-icon 
 {
-  fill: #afb1b8;
-  height: 94px;
+  fill: currentColor;
+  
 }
 
 /*Footer*/
